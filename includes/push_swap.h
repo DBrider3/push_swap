@@ -6,7 +6,7 @@
 /*   By: dcho <dcho@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 16:22:57 by dcho              #+#    #+#             */
-/*   Updated: 2021/06/07 21:10:42 by dcho             ###   ########.fr       */
+/*   Updated: 2021/06/07 21:27:19 by dcho             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,4 +98,9 @@ void			exit_error(void);
 ** free part
 */
 void			free_all(t_stack *s, int *arr);
+/*
+** etc part
+*/
+void 			list_print(t_dlist *dlist, int flag);
+void			pivot_print(int pivot[]);
 #endif

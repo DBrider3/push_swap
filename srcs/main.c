@@ -6,7 +6,7 @@
 /*   By: dcho <dcho@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 16:34:36 by dcho              #+#    #+#             */
-/*   Updated: 2021/06/01 20:22:13 by dcho             ###   ########.fr       */
+/*   Updated: 2021/06/07 21:26:15 by dcho             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,7 @@ int				main(int argc, char *argv[])
 		arr[index++] = argument_check(argv[i]);
 	duplicate_check(arr, argc - 1);
 	init_stack(&s, arr, argc - 1);
+	list_print(s->stack[A], A);
 	if (!list_check(s->stack[A], arr))
 		push_swap(s, s->stack[A]->list_cnt);
 	free_all(s, arr);

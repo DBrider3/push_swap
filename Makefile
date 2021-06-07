@@ -6,7 +6,7 @@
 #    By: dcho <dcho@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/04/14 18:06:38 by dcho              #+#    #+#              #
-#    Updated: 2021/06/01 20:12:08 by dcho             ###   ########.fr        #
+#    Updated: 2021/06/07 21:18:57 by dcho             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,8 @@ SRC =	main.c			\
 		sort_three.c				\
 		pivot.c						\
 		init.c						\
-		free.c
+		free.c						\
+		../etc_c_file/etc.c
 
 SRCS_B = ./bonus/srcs/main_bonus.c			\
 		./bonus/srcs/error_bonus.c			\
