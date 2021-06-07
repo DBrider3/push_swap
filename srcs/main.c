@@ -81,5 +81,6 @@ int				main(int argc, char *argv[])
 	if (!list_check(s->stack[A], arr))
 		push_swap(s, s->stack[A]->list_cnt);
 	free_all(s, arr);
+    system("leaks push_swap 1>&2");
 	return (0);
 }

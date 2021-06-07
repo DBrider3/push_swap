@@ -6,7 +6,7 @@
 /*   By: dcho <dcho@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 16:22:57 by dcho              #+#    #+#             */
-/*   Updated: 2021/06/01 16:11:46 by dcho             ###   ########.fr       */
+/*   Updated: 2021/06/07 21:10:42 by dcho             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include "get_next_line.h"
 # include "libft.h"
+#include <stdio.h>
 
 # define A 0
 # define B 1
